@@ -14,7 +14,25 @@
   .text-shadow {
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
   }
-  
+
+  h3#win-lose-report {
+    border: 2px solid #fcb043;
+    padding: .5em;
+    display: inline-block;
+    margin: .5em;
+}
+  /*BUTTONS*/
+  .btn {
+    font-family: "Shrikhand", cursive;
+
+  }
+  .btn--heady {
+    padding: .6em 1.2em;
+    font-size: 1.3em;
+    background: #fff;
+    box-shadow: -3px 3px 0px #eb4a2c;
+    color: #eb4a2c;
+  }
   /*COLORS*/
   .color--dark {
     color: #444;
@@ -54,11 +72,18 @@
     padding-bottom: 1rem;
   }
   
+  /*SCORING*/
+  #guessed-letters, #guesses-left, #wins {
+    font-family: "Shrikhand", cursive;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #000;
+}
   /*CUSTOM*/
   .intro {
     background-image: url(../images/heady-bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: coker;
     background-position: 50% 50%;
     position: relative;
   }
